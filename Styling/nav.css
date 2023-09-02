@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  border-bottom: 1px solid gray;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.icon{
+  cursor: pointer;
+}
+
+.middle .input {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+.middle {
+  width: 40%;
+  display: flex;
+}
+.input{
+  border: 2px solid rgb(95, 95, 95);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.middle .input input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  padding-left: 15px;
+}
+
+.middle .input button {
+  border: none;
+  background-color: #303030;
+  cursor: pointer;
+}
+
+.right {
+  gap: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
